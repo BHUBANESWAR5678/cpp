@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    int num1, num2, diff;
+
+    std::cout << "Enter first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter second number: ";
+    std::cin >> num2;
+
+    diff = num1 - num2;
+
+    std::cout << "Difference: " << diff << std::endl;
+
+    return 0;
+}
