@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    int base, exponent, result = 1;
+
+    std::cout << "Enter base: ";
+    std::cin >> base;
+
+    std::cout << "Enter exponent: ";
+    std::cin >> exponent;
+
+    for (int i = 0; i < exponent; i++) {
+        result *= base;
+    }
+
+    std::cout << "Result: " << result << std::endl;
+
+    return 0;
+}
